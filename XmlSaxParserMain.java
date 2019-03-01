@@ -17,6 +17,8 @@ public class XmlSaxParserMain {
             	output.write(13);
             	
             }
+            
+            new EXCELCreater(parser);
     		
     	} catch(Exception e) {
     		
